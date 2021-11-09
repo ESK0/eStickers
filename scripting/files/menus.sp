@@ -292,9 +292,6 @@ stock void Menu_OpenStickerSlotSelection(int client, int iStickerNum, bool bPatc
     eWeaponStickers WeaponStickers;
     g_smWeaponStickers[client].GetArray(szWeaponNum, WeaponStickers, sizeof(eWeaponStickers));
     
-    Format(szMenuItem, sizeof(szMenuItem), "%T", "All slots", client);
-    menu.AddItem("#0", szMenuItem);
-
     char szAppliedStickerDisplayName[48];
     for(int iSlot = 1; iSlot <= 4; iSlot++)
     {
@@ -307,6 +304,9 @@ stock void Menu_OpenStickerSlotSelection(int client, int iStickerNum, bool bPatc
         menu.AddItem("", szMenuItem);
 
     }
+
+    Format(szMenuItem, sizeof(szMenuItem), "%T", "All slots", client);
+    menu.AddItem("#0", szMenuItem);
     
     menu.ExitBackButton = true;
     menu.Display(client, MENU_TIME_FOREVER);
@@ -349,7 +349,7 @@ public int m_StickerSlotSelection(Menu menu, MenuAction action, int client, int 
 
             switch(option)
             {
-                case 0:
+                case 4:
                 {
                     for(int iSlot = 0; iSlot < 4; iSlot++)
                     {
@@ -362,7 +362,7 @@ public int m_StickerSlotSelection(Menu menu, MenuAction action, int client, int 
                 {
                     Format(szSlot, sizeof(szSlot), "%i", option);
                     CPrintToChat(client, "%s %t", g_szServerTagColored, "Sticker Applied", szStickerDisplayName, szWeaponDisplayName, szSlot);
-                    WeaponStickers.Sticker[option - 1] = iStickerDefIndex;
+                    WeaponStickers.Sticker[option] = iStickerDefIndex;
                 }
             }
 
