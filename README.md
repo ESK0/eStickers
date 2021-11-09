@@ -1,4 +1,5 @@
 ## **eStickers**
+eStickers is very simple, user friendly sticker plugin. You can apply stickers to your current held weapon or even to all other weapons in advance, before you ever pick up them.
 
 **Requirements:**
 
