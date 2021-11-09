@@ -306,7 +306,7 @@ stock void Menu_OpenStickerSlotSelection(int client, int iStickerNum, bool bPatc
     }
 
     Format(szMenuItem, sizeof(szMenuItem), "%T", "All slots", client);
-    menu.AddItem("#0", szMenuItem);
+    menu.AddItem("#4", szMenuItem);
     
     menu.ExitBackButton = true;
     menu.Display(client, MENU_TIME_FOREVER);
