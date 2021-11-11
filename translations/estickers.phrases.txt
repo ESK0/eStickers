@@ -3,34 +3,31 @@
     // Chat message
     "Data not synced"
     {
-		"tr"    "{$green}Veriler senkronize edilmiyor!"
+	"tr"    "{$green}Veriler senkronize edilmiyor!"
         "en"    "Data are not synced!"
         "cze"   "Data nejsou synchronizována!"
         "ru"    "Данные не синхронизированы"
         "ua"    "Дані не синхронізовані"
     }
-
     "Main menu"
     {
-		"tr"    "Çıkartma Menüsü"
+	"tr"    "Çıkartma Menüsü"
         "en"    "Main menu"
         "cze"   "Hlavní menu"
         "ru"    "Главное меню"
         "ua"    "Головне меню"
     }
-
     "Only For Alive"
     {
-		"tr"    "Sadece Canlıyken"
+	"tr"    "Sadece Canlıyken"
         "en"    "Only for alive"
         "cze"   "Pouze pro živé"
         "ru"    "Только для живых"
         "ua"    "Тільки для живих"
     }
-
     "Current Weapon"
     {
-		"tr"    "Mevcut Silah"
+	"tr"    "Mevcut Silah"
         "en"    "Current weapon"
         "cze"   "Aktuální zbraň"
         "ru"    "Текущее оружие"
@@ -39,49 +36,44 @@
 
     "Primary Weapons"
     {
-		"tr"    "Birincil Silah (Tüfek)"
+	"tr"    "Birincil Silah (Tüfek)"
         "en"    "Primary weapons"
         "cze"   "Hlavní zbraně"
         "ru"    "Основное оружие"
         "ua"    "Основна зброя"
     }
-
     "Secondary Weapons"
     {
-		"tr"    "İkilcil Silah (Tabanca)"
+	"tr"    "İkilcil Silah (Tabanca)"
         "en"    "Secondary weapons"
         "cze"   "Pistole"
         "ru"    "Дополнительное оружие"
         "ua"    "Додаткова зброя"
     }
-
     "Current Weapon Available Only For Alive"
     {
-		"tr"    "Mevcut Silah Sadece Hayattayken Kullanılabilir"
+	"tr"    "Mevcut Silah Sadece Hayattayken Kullanılabilir"
         "en"    "Current Weapon is available only for alive players!"
         "cze"   "Tato funkce je pouze dostupná pro žive hráče"
-		"ru"    "Оружие доступно только живым"
+	"ru"    "Оружие доступно только живым"
         "ua"    "Зброя доступна тільки живим"
     }
-
      "Stickers"
     {
-		"tr"    "Çıkartmalar"
+	"tr"    "Çıkartmalar"
         "en"    "Stickers"
         "cze"   "Samolepky"
         "ru"    "Наклейки"
         "ua"    "Наклейки"
     }
-
     "Weapon"
     {
-		"tr"    "Silah"
+	"tr"    "Silah"
         "en"    "Weapon"
         "cze"   "Zbraň"
         "ru"    "Оружие"
         "ua"    "Зброя"
     }
-
     "All slots"
     {
 		"tr"    "Tüm Slotlar"
@@ -90,65 +82,58 @@
         "ru"    "Все слоты"
         "ua"    "Усі слоти"
     }
-
     "Slot"
     {
-		"tr"    "Slot"
+	"tr"    "Slot"
         "en"    "Slot"
         "cze"   "Pozice"
         "ru"    "Слот"
         "ua"    "Слот"
     }
-
     "Sticker Applied"
     {
         "#format"   "{1:s},{2:s},{3:s}"
-		"tr"  "Başarıyla {$lime}{2}{$default} Silahın {$blue}{3}{$default} slota {$yellow}{1}{$default} Çıkartması Eklendi!"
+	"tr"  "Başarıyla {$lime}{2}{$default} Silahın {$blue}{3}{$default} slota {$yellow}{1}{$default} Çıkartması Eklendi!"
         "en"    "Successfully applied {1} sticker('{3}') for {2}"
         "cze"   "Nastavil sis samolepku {1} pro {2} do slotu '{3}'"
         "ru"    "Наклейка {1}(cлот: '{3}') успешно нанесена на {2}" 
         "ua"    "Наклейка {1}(cлот: '{3}') успішно нанесена на {2}"
     }
-
     "Only For VIP"
     {
-		"tr"   "{$green}Bu komut yalnızca VIP üyeler için kullanılabilir"
+	"tr"   "{$green}Bu komut yalnızca VIP üyeler için kullanılabilir"
         "en"    "This command is available only for VIPs"
         "cze"   "Tento příkaz je dostupný pouze pro VIP"
         "ru"    "Доступно только VIP игрокам"
         "ua"    "Доступно тільки VIP гравцям"
     }
-
-     "Stickers Not Supported"
+    "Stickers Not Supported"
     {
-		"tr"    "Bu silah çıkartma desteklemiyor"
+	"tr"    "Bu silah çıkartma desteklemiyor"
         "en"    "This weapon doesn't support stickers!"
         "cze"   "Tato zbraň nepodporuje samolepky!"
-		"ru"	"Оружие не поддерживает наклейки!"
-		"ua"	"Зброя не підтримує наклейки!"
+	"ru"	"Оружие не поддерживает наклейки!"
+	"ua"	"Зброя не підтримує наклейки!"
     }
-
     "Patches"
     {
-		"tr"    "Yama"
+	"tr"    "Yama"
         "en"    "Patches"
         "cze"   "Záplaty"
-		"ru"	"Нашивки"
-		"ua"	"Нашивки"
+	"ru"	"Нашивки"
+	"ua"	"Нашивки"
     }
-
     "Remove Sticker"
     {
-		"tr"    "Çıkartma Kaldır"
+	"tr"    "Çıkartma Kaldır"
         "en"    "Remove sticker"
         "cze"   "Odstranit samolepku"
         "ru"    "Удалить наклейку"
         "ua"    "Видалити наклейку"
     }
-
     "None"
     {
-		"tr"    "Yok"
+	"tr"    "Yok"
         "en"    "none"
         "cze"   "žádná"
         "ru"    "ничто"
