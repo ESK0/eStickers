@@ -19,7 +19,7 @@
 #include "files/menus.sp"
 
 #define AUTHOR "ESK0"
-#define VERSION "0.4.0"
+#define VERSION "0.4.1"
 
 public Plugin myinfo =
 {
@@ -37,15 +37,18 @@ public void OnPluginStart()
 {
     Database.Connect(Database_OnConnect, "eStickers");
 
-    if(eItems_AreItemsSynced() && !g_bDataSynced)
+    if (LibraryExists("eItems"))
     {
-        eItems_OnItemsSynced();
+        if(eItems_AreItemsSynced() && !g_bDataSynced)
+        {
+            eItems_OnItemsSynced();
+        }
+        else if(!eItems_AreItemsSyncing())
+        {
+            eItems_ReSync();
+        }
     }
-    else if(!eItems_AreItemsSyncing())
-    {
-        eItems_ReSync();
-    }
-
+    
     LoadTranslations("estickers.phrases.txt");
     if(g_bLateLoaded)
     {
