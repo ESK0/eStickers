@@ -17,7 +17,7 @@ public void UpdateClientWeapon(int client, int iWeapon)
     for(int iStickerSlot = 0; iStickerSlot < 4; iStickerSlot++)
     {
         int iStickerDefIndex = WeaponStickers.Sticker[iStickerSlot];
-        if(iStickerDefIndex == -1)
+        if(iStickerDefIndex == 0)
         {
             continue;
         }
