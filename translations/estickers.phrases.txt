@@ -8,6 +8,7 @@
         "cze"   "Data nejsou synchronizována!"
         "ru"    "Данные не синхронизированы"
         "ua"    "Дані не синхронізовані"
+	"pt"    "Os dados não estão sincronizados!"
     }
     "Main menu"
     {
@@ -16,6 +17,7 @@
         "cze"   "Hlavní menu"
         "ru"    "Главное меню"
         "ua"    "Головне меню"
+	"pt"	"Menu Principal"
     }
     "Only For Alive"
     {
@@ -24,6 +26,7 @@
         "cze"   "Pouze pro živé"
         "ru"    "Только для живых"
         "ua"    "Тільки для живих"
+	"pt"	"Apenas para vivos"
     }
     "Current Weapon"
     {
@@ -32,6 +35,7 @@
         "cze"   "Aktuální zbraň"
         "ru"    "Текущее оружие"
         "ua"    "Поточна зброя"
+	"pt"    "Arma atual"
     }
 
     "Primary Weapons"
@@ -41,6 +45,7 @@
         "cze"   "Hlavní zbraně"
         "ru"    "Основное оружие"
         "ua"    "Основна зброя"
+	"pt"	"Armas primárias"
     }
     "Secondary Weapons"
     {
@@ -49,6 +54,7 @@
         "cze"   "Pistole"
         "ru"    "Дополнительное оружие"
         "ua"    "Додаткова зброя"
+	"pt"	"Armas secundária"
     }
     "Current Weapon Available Only For Alive"
     {
@@ -57,6 +63,7 @@
         "cze"   "Tato funkce je pouze dostupná pro žive hráče"
         "ru"    "Оружие доступно только живым"
         "ua"    "Зброя доступна тільки живим"
+	"pt"	"A arma atual está disponível apenas para jogadores vivos!"
     }
      "Stickers"
     {
@@ -65,6 +72,7 @@
         "cze"   "Samolepky"
         "ru"    "Наклейки"
         "ua"    "Наклейки"
+	"pt"	"Adesivos"
     }
     "Weapon"
     {
@@ -73,6 +81,7 @@
         "cze"   "Zbraň"
         "ru"    "Оружие"
         "ua"    "Зброя"
+	"pt"	"Arma"
     }
     "All slots"
     {
@@ -81,6 +90,7 @@
         "cze"   "Všechny pozice"
         "ru"    "Все слоты"
         "ua"    "Усі слоти"
+	"pt"	"Todos os slots"
     }
     "Slot"
     {
@@ -89,6 +99,7 @@
         "cze"   "Pozice"
         "ru"    "Слот"
         "ua"    "Слот"
+	"pt"	"Slot"
     }
     "Sticker Applied"
     {
@@ -98,6 +109,7 @@
         "cze"   "Nastavil sis samolepku {1} pro {2} do slotu '{3}'"
         "ru"    "Наклейка {1}(cлот: '{3}') успешно нанесена на {2}" 
         "ua"    "Наклейка {1}(cлот: '{3}') успішно нанесена на {2}"
+	"pt"	"Adesivo {1} aplicado com sucesso ('{3}') para {2}"
     }
     "Only For VIP"
     {
@@ -106,6 +118,7 @@
         "cze"   "Tento příkaz je dostupný pouze pro VIP"
         "ru"    "Доступно только VIP игрокам"
         "ua"    "Доступно тільки VIP гравцям"
+	"pt"	"Este comando está disponível apenas para VIPs"
     }
     "Stickers Not Supported"
     {
@@ -114,6 +127,7 @@
         "cze"   "Tato zbraň nepodporuje samolepky!"
         "ru"	"Оружие не поддерживает наклейки!"
         "ua"	"Зброя не підтримує наклейки!"
+	"pt"	"Esta arma não suporta adesivos!"
     }
     "Patches"
     {
@@ -122,6 +136,7 @@
         "cze"   "Záplaty"
         "ru"	"Нашивки"
         "ua"	"Нашивки"
+	"pt"	"Patches"
     }
     "Remove Sticker"
     {
@@ -130,6 +145,7 @@
         "cze"   "Odstranit samolepku"
         "ru"    "Удалить наклейку"
         "ua"    "Видалити наклейку"
+	"pt"	"Remover adesivo"
     }
     "None"
     {
@@ -138,5 +154,6 @@
         "cze"   "žádná"
         "ru"    "ничто"
         "ua"    "ніщо"
+	"pt"	"Nenhum"
     }
 }
